@@ -1,0 +1,5 @@
+dash
+dash-auth
+requests
+pandas
+gunicorn

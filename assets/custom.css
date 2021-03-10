@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+.sidebar {
+  background-color: #f3f6fa;
+  height: 100vh;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.logo {
+  height: 35px;
+  width: auto;
+  padding: 35px;
+}
+
+.title {
+  color: #2a3f5f;
+  padding: 0px 35px;
+}
+
+.subtitle {
+  color: #2a3f5f;
+  padding: 0px 38px;
+}
+
+.dropdown {
+  padding: 0px 38px;
+}
+
+.Select-clear-zone,
+.Select-clear {
+  cursor: not-allowed;
+  pointer-events: none;
+  display: none;
+}
