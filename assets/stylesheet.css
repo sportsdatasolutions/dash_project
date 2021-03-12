@@ -555,6 +555,13 @@ there.
   .sidebar {
     height: auto !important;
   }
+  .dropdown-div {
+    text-align: center;
+  }
+  .sidebar .dropdown {
+    padding: 0px 0px !important;
+    width: 100% !important;
+  }
   .flex-display {
     display: block !important;
   }
@@ -564,6 +571,9 @@ there.
   }
   .nine.columns {
     width: 100%;
+  }
+  .input {
+    width: 21vw;
   }
   .title {
     text-align: center;
