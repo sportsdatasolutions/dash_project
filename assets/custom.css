@@ -15,12 +15,11 @@ body {
   padding: 0px 30px;
 }
 
-.logo {
-  height: 40px;
-  width: auto;
-  padding-top: 5px;
-  margin-left: -8px;
+.flex-display {
+  display: flex;
 }
+
+/* markdown elements */
 
 .title {
   color: #2a3f5f;
@@ -30,9 +29,16 @@ body {
   color: #2a3f5f;
 }
 
-.inline-subtitle {
-  color: #2a3f5f;
+/* Whatever suits the logo you have in your assets folder */
+
+.logo {
+  height: 50px;
+  width: auto;
+  padding-top: 40px;
+  margin-left: -8px;
 }
+
+/* Custom dropdown styling */
 
 .sidebar .dropdown {
   width: 95%;
@@ -43,19 +49,6 @@ body {
   cursor: not-allowed;
   pointer-events: none;
   display: none;
-}
-
-.flex-display,
-.inline-div {
-  display: flex;
-}
-
-.dropdown-div-inline {
-  width: 90%;
-}
-
-.input {
-  width: 5vw;
 }
 
 /* for screen sizes smaller than 900px (mobile) see stylesheet.css line 553 onwards */
