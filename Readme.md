@@ -2,7 +2,8 @@
 
 > Dash App ready to deploy to Heroku 💻 🐍 ⚡️ 🎉 🤝
 
-![DashGuide](https://sportsdatasolutionsacademy.s3.eu-west-2.amazonaws.com/public/DashGuide.png)
+![DashGuide](https://sportsdatasolutionsacademy.s3.eu-west-2.amazonaws.com/public/Links/DashSideBarTemplate.png)
+> Credit [@amber-luzar](https://github.com/amber-luzar) - GB Hockey.
 
 ## Getting Started
 
