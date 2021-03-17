@@ -4,33 +4,44 @@ body {
   background-color: white;
 }
 
+.main {
+  padding: 0px 30px;
+}
+
 .sidebar {
   background-color: #f3f6fa;
   height: 100vh;
+  /* height: auto; */
+  padding: 0px 30px;
 }
 
 .flex-display {
   display: flex;
 }
 
-.logo {
-  height: 35px;
-  width: auto;
-  padding: 35px;
-}
+/* markdown elements */
 
 .title {
   color: #2a3f5f;
-  padding: 0px 35px;
 }
 
 .subtitle {
   color: #2a3f5f;
-  padding: 0px 38px;
 }
 
-.dropdown {
-  padding: 0px 38px;
+/* Whatever suits the logo you have in your assets folder */
+
+.logo {
+  height: 50px;
+  width: auto;
+  padding-top: 40px;
+  margin-left: -8px;
+}
+
+/* Custom dropdown styling */
+
+.sidebar .dropdown {
+  width: 95%;
 }
 
 .Select-clear-zone,
@@ -39,3 +50,5 @@ body {
   pointer-events: none;
   display: none;
 }
+
+/* for screen sizes smaller than 900px (mobile) see stylesheet.css line 553 onwards */

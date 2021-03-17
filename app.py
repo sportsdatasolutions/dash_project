@@ -44,6 +44,7 @@ app.layout = html.Div(
                     className="logo", src=app.get_asset_url("logo.png")
                 )
             ),
+            html.Br(),
             dcc.Markdown(
                 """### FIH Rankings""",
                 className="title"
@@ -53,7 +54,7 @@ app.layout = html.Div(
                 className="subtitle"
             ),
             html.Br(),
-            html.Div(className="dropdown_div", children=[
+            html.Div(className="dropdown-div", children=[
                 dcc.Markdown(
                     """###### Select Gender""",
                     className="subtitle"
@@ -69,7 +70,7 @@ app.layout = html.Div(
                 )
             ])
         ]),
-        html.Div(className="nine columns", children=[
+        html.Div(className="nine columns main", children=[
             html.Br(),
             dcc.Markdown(
                 """### Current Rankings""",
